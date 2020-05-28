@@ -1,7 +1,7 @@
 # 360KinectGum
 
 VMCProtocolを使用し、Xbox360版KinectとVRMファイルを結ぶバンジーガムのようなプログラムです。
-Unity上で動作します。
+Unity上で動作します。VMCProtocolを使用して、EVMC4Uへの姿勢情報の送信を目的にしています。
 
 # DEMO
  
