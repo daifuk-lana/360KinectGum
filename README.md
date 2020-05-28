@@ -5,7 +5,7 @@ Unity上で動作します。
 
 # DEMO
  
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Kinect v1で動く脱法ばもきゃ作りました。<a href="https://twitter.com/hashtag/EVMC4U?src=hash&amp;ref_src=twsrc%5Etfw">#EVMC4U</a> で動くことを確認しました。 <a href="https://twitter.com/hashtag/VMCProtocol?src=hash&amp;ref_src=twsrc%5Etfw">#VMCProtocol</a> <a href="https://t.co/772GaBBaOr">pic.twitter.com/772GaBBaOr</a></p>&mdash; 大福らな🧷ぱふぇらむ公式Vライバー (@daifuk_lana) <a href="https://twitter.com/daifuk_lana/status/1264927841935716353?ref_src=twsrc%5Etfw">May 25, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Kinect v1で動く脱法ばもきゃ作りました。<a href="https://twitter.com/hashtag/EVMC4U?src=hash&amp;ref_src=twsrc%5Etfw">#EVMC4U</a> で動くことを確認しました。 <a href="https://twitter.com/hashtag/VMCProtocol?src=hash&amp;ref_src=twsrc%5Etfw">#VMCProtocol</a> <a href="https://t.co/772GaBBaOr">pic.twitter.com/772GaBBaOr</a></p>&mdash; 大福らな🧷ぱふぇらむ公式Vライバー (@daifuk_lana) <a href="https://twitter.com/daifuk_lana/status/1264927841935716353?ref_src=twsrc%5Etfw">May 25, 2020</a></blockquote>
  
 # Features
 
