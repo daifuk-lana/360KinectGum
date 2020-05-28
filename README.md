@@ -51,6 +51,11 @@ VMCPKinectGum.cs
 最後に、読み込ませたいVRMファイルを「default.vrm」とリネームし、
 「C:\VRM」を作成し、そこに保存してください。
 
+私がビルドしたものをreleasesに置いています。
+背景の色やカメラの画角は変えられません。
+送信Port番号は39541、VRMファイルはC:\VRMにdefault.vrmで保存してください。
+https://github.com/daifuk-lana/360KinectGum/releases
+
 # Usage
  
 実行すればVRMが非同期処理で読み込まれ、Kinectで操作可能になります。
