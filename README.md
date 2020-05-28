@@ -43,10 +43,10 @@ UniVRM、uOSCも使用出来る状態にしておいてください。
 次に、空のGameObjectを作成し、以下のスクリプトをアタッチしてください。
 GameObjectの名前を「Script」にしておくと本プログラムの修正の必要がありません。
 
-Asset/KinectScript/KinectManager.cs
-Asset/uOSC/Script/uOscClient.cs
-SampleBonesSend.cs
-VMCPKinectGum.cs
+* Asset/KinectScript/KinectManager.cs
+* Asset/uOSC/Script/uOscClient.cs
+* SampleBonesSend.cs
+* VMCPKinectGum.cs
 
 最後に、読み込ませたいVRMファイルを「default.vrm」とリネームし、
 「C:\VRM」を作成し、そこに保存してください。
