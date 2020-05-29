@@ -1,4 +1,6 @@
-# 360KinectGum
+# 🎮360KinectGum
+
+![top](https://user-images.githubusercontent.com/59566441/83269906-b778c100-a202-11ea-8fbe-2d1e53ddecb9.png)
 
 VMCProtocolを使用し、Xbox360版KinectとVRMファイルを結ぶバンジーガムのようなプログラムです。
 Unity上で動作します。EVMC4Uへの姿勢情報の送信を目的にしています。
