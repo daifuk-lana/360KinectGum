@@ -1,13 +1,13 @@
 # 🎮360KinectGum
 ![top](https://user-images.githubusercontent.com/59566441/83269906-b778c100-a202-11ea-8fbe-2d1e53ddecb9.png)  
 Kinect v1（XBox360版及びWindows版）で動作するVRMモデル向けモーションキャプチャーツールです。  
-VMCProtocolを使用し、**[EVMC4U](https://github.com/gpsnmeajp/EasyVirtualMotionCaptureForUnity)**等の対応アプリケーションへモーションデータを送信します。  
+VMCProtocolを使用し、[EVMC4U](https://github.com/gpsnmeajp/EasyVirtualMotionCaptureForUnity)等の対応アプリケーションへモーションデータを送信します。  
 Kinect v1とVRMファイルを結ぶバンジーガムのようなプログラムです。
 # 🎬デモ
 ![シーケンス 01_2](https://user-images.githubusercontent.com/59566441/83273551-94044500-a207-11ea-876b-226337056e39.gif)
 # 🎙ご説明
 どこのご家庭の押し入れにも眠っているKinect v1を活用して、ブイチューバーの真似事が出来るようになります。  
-**[EVMC4U](https://github.com/gpsnmeajp/EasyVirtualMotionCaptureForUnity)**や、**[Oredayo](https://github.com/gpsnmeajp/Oredayo)**にも簡単にモーションデータを送ることが出来ます。  
+[EVMC4U](https://github.com/gpsnmeajp/EasyVirtualMotionCaptureForUnity)や、[Oredayo](https://github.com/gpsnmeajp/Oredayo)にも簡単にモーションデータを送ることが出来ます。  
 なお、Kinect v1は販売終了しているため購入する場合は中古のみとなり、故障のリスクがあります。  
 現行品と比較すると測定距離や解像度、精度の点で劣りますので、購入は推奨しません。  
 本プログラムについても、私の趣味の範囲で作成しておりますのでご了承ください。  
