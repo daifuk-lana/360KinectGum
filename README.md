@@ -8,6 +8,10 @@ Kinect v1とVRMファイルを結ぶバンジーガムのようなプログラ�
 # 🎙ご説明
 どこのご家庭の押し入れにも眠っているKinect v1を活用して、ブイチューバーの真似事が出来るようになります。  
 [EVMC4U](https://github.com/gpsnmeajp/EasyVirtualMotionCaptureForUnity)や、[Oredayo](https://github.com/gpsnmeajp/Oredayo)にも簡単にモーションデータを送ることが出来ます。  
+
+Kinect v1はPCで使用する場合、Xbox360版が個人利用、Windows版が商用利用可能となっております。  
+各自Kinect v1の利用規約等をご確認の上、用途に合わせてご使用ください。  
+
 なお、Kinect v1は販売終了しているため購入する場合は中古のみとなり、故障のリスクがあります。  
 現行品と比較すると測定距離や解像度、精度の点で劣りますので、購入は推奨しません。  
 本プログラムについても、私の趣味の範囲で作成しておりますのでご了承ください。  
@@ -16,10 +20,10 @@ Kinect v1とVRMファイルを結ぶバンジーガムのようなプログラ�
 Unity上で動かします。私はバージョン2018.4.10f1を使用しています。  
 
 **[Kinect for Windows SDK v1.8](https://www.microsoft.com/en-us/download/details.aspx?id=40278)**  
-SDK v1.8がXbox360版Kinectに対応しています。  
+SDK v1.8がKinect v1に対応しています。  
 
 **[Kinect with MS-SDK](https://assetstore.unity.com/packages/tools/kinect-with-ms-sdk-7747?locale=ja-JP)**  
-Xbox360版KinectをUnity上で使用するための便利なアセットです。  
+Kinect v1をUnity上で使用するための便利なアセットです。  
 
 **[VMCProtocol](https://sh-akira.github.io/VirtualMotionCaptureProtocol/)**  
 OSCで姿勢情報を送受信出来る便利なプロトコルです。こちらを使用してEVMC4Uに動きを反映させます。  
@@ -55,7 +59,7 @@ u OSC ClientのPort番号を転送先のアプリケーションの受け側Port
 **[booth](https://daifuklana.booth.pm/items/2109279)**  
 **[release](https://github.com/daifuk-lana/360KinectGum/releases)**  
 
-# 作者  
+# 👽作者  
  
 * 大福らな
 * pachelam.com
