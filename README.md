@@ -61,9 +61,9 @@ u OSC ClientのPort番号を転送先のアプリケーションの受け側Port
 
 # 👽作者  
  
-* 大福らな
-* pachelam.com
-* @daifuk_lana
+* [大福らな](https://www.youtube.com/channel/UCtg9i4TxyddG5QV5CYZETiQ)
+* [pachelam.com](https://pachelam.com/)
+* [@daifuk_lana](https://twitter.com/daifuk_lana)
  
 # License
  
