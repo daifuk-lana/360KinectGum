@@ -2,7 +2,7 @@
 ![top](https://user-images.githubusercontent.com/59566441/83269906-b778c100-a202-11ea-8fbe-2d1e53ddecb9.png)  
 Kinect v1（XBox360版及びWindows版）で動作するVRMモデル向けモーションキャプチャーツールです。  
 VMCProtocolを使用し、[EVMC4U](https://github.com/gpsnmeajp/EasyVirtualMotionCaptureForUnity)等の対応アプリケーションへモーションデータを送信します。  
-Kinect v1とVRMファイルを結ぶバンジーガムのようなプログラムです。
+Kinect v1とVMCProtocolを結ぶバンジーガムのようなプログラムです。
 # 🎬デモ
 ![シーケンス 01_2](https://user-images.githubusercontent.com/59566441/83273551-94044500-a207-11ea-876b-226337056e39.gif)
 # 🎙ご説明
