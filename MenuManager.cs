@@ -16,14 +16,14 @@ public class MenuManager : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetKey(KeyCode.Escape))
         {
 
             Canvas.SetActive(false);
 
         }
 
-        if (Input.GetKey(KeyCode.Escape))
+        if (Input.GetKey(KeyCode.Return))
         {
 
             Canvas.SetActive(true);
