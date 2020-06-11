@@ -8,14 +8,16 @@ using System.Reflection;
 public class PortChange : MonoBehaviour
 {
     public InputField inputField;
-    int AddressNumber = 0;
-    int PortNumber = 39541;
+    //string AddressNumber = "127.0.0.1";
+    int PortNumber = 39540;
     public Text text;
-    uOscClient uClient;
+    uOscClient uOscClient;
+    SampleBonesSend BoneSend;
 
     void Start()
     {
-        uClient = this.GetComponent<uOSC.uOscClient>();
+        uOscClient = this.GetComponent<uOSC.uOscClient>();
+        BoneSend = this.GetComponent<SampleBonesSend>();
     }
     public void SetPortNumber()
     {
@@ -24,11 +26,17 @@ public class PortChange : MonoBehaviour
         PortNumber = Int32.Parse(inputField.text);
         GameObject.Find("PortText").GetComponent<Text>().text = "送信ポート番号：" + inputField.text;
 
-        uClient.enabled = false;
+        //uOSC Clientにポート番号を入力、再起動
+        BoneSend.enabled = false;
+        uOscClient.enabled = false;
         var type = typeof(uOSC.uOscClient);
+        //var addressfield = type.GetField("address", BindingFlags.SetField | BindingFlags.NonPublic | BindingFlags.Instance);
+        //addressfield.SetValue(uOscClient, AddressNumber);
         var portfield = type.GetField("port", BindingFlags.SetField | BindingFlags.NonPublic | BindingFlags.Instance);
-        portfield.SetValue(uClient, PortNumber);
-        uClient.enabled = true;
+        portfield.SetValue(uOscClient, PortNumber);
+        uOscClient.enabled = true;
+        BoneSend.enabled = true;
+
         //this.GetComponent<uOscClient>().OnEnable();
         //this.targetText.text = "送信ポート番号：" + PortNumber;
     }
