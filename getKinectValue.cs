@@ -16,8 +16,8 @@ public class getKinectValue : MonoBehaviour
         float maxKinectFilter = 9f;
         float nowKinectFilter = 5f;
 
-        KinectSlider.maxValue = maxKinectFilter;
         KinectSlider.value = nowKinectFilter;
+        KinectSlider.maxValue = maxKinectFilter;
     }
 
     void Update()
@@ -26,6 +26,7 @@ public class getKinectValue : MonoBehaviour
     }
     public void Method()
     {
+        Debug.Log("testÅF" + KinectSlider.value);
         GameObject.Find("VRM").GetComponent<AvatarController>().smoothFactor = KinectSlider.value;
         Debug.Log("åªç›ílÅF" + KinectSlider.value);
     }
