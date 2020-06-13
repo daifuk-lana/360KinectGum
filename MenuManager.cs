@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 [DefaultExecutionOrder(-1)]
 public class MenuManager : MonoBehaviour

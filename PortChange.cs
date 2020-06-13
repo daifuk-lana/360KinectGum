@@ -1,10 +1,8 @@
 using UnityEngine;
-using System.Collections;
 using UnityEngine.UI;
 using uOSC;
 using System;
 using System.Reflection;
-using System.Threading.Tasks;
 using EasyDeviceDiscoveryProtocolClient;
 
 public class PortChange : MonoBehaviour

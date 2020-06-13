@@ -1,8 +1,4 @@
-using System.IO;
-using System.Threading.Tasks;
 using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.Experimental.UIElements;
 using Slider = UnityEngine.UI.Slider;
 
 public class getKinectValue : MonoBehaviour
