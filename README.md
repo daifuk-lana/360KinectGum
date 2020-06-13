@@ -53,8 +53,10 @@ u OSC ClientのPort番号を転送先のアプリケーションの受け側Port
 
 # ❗おまけ
 私がビルドしたものをbooth、releasesにそれぞれ置いています。  
-背景の色は変えられませんが、カメラの画角やモーションフィルタは変更可能です。設定値の保存はできません。  
-送信Port番号は39540固定です。VRMファイルはC:\VRMにdefault.vrmで保存してください。  
+背景の色は変えられませんが、カメラの画角やモーションフィルタは変更可能です。  
+また、送信Port番号の変更も可能です。デフォルトは39540です。設定値は保存されます。  
+リップシンク、まばたき、EDDPによる自動ポート設定(実質Oredayo4V専用)も実装しています。
+VRMファイルはC:\VRMにdefault.vrmで保存してください。  
 
 **[booth](https://daifuklana.booth.pm/items/2109279)**  
 **[release](https://github.com/daifuk-lana/360KinectGum/releases)**  
