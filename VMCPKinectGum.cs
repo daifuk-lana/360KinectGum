@@ -42,7 +42,9 @@ public class VMCPKinectGum : MonoBehaviour
         model.AddComponent<AvatarController>();
         this.GetComponent<KinectManager>().ResetAvatarControllers(); //thisをKinectManagerをアタッチしたGameObjectに変更
         //BoneSendへのVRMオブジェクト代入
-        this.GetComponent<SampleBonesSend>().Model = GameObject.Find("VRM"); //thisをSampleBonesSendをアタッチしたGameObjectに変更
+        this.GetComponent<SampleBonesSend>().Model = model; //thisをSampleBonesSendをアタッチしたGameObjectに変更
+        //BoneReceiveへのVRMオブジェクト代入
+        this.GetComponent<SampleBonesReceive>().Model = model; //thisをSampleBonesSendをアタッチしたGameObjectに変更
         //Blinker追加
         var lookAt = model.GetComponent<VRMLookAtHead>();
         if (lookAt != null)
