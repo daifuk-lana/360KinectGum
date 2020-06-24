@@ -16,8 +16,8 @@ Kinect v1はPCで使用する場合、Xbox360版が個人利用、Windows版が�
 現行品と比較すると測定距離や解像度、精度の点で劣りますので、購入は推奨しません。  
 本プログラムについても、私の趣味の範囲で作成しておりますのでご了承ください。  
  # 💻動作環境
- **[Unity](https://unity3d.com/jp/get-unity/download)**  
-Unity上で動かします。私はバージョン2018.4.10f1を使用しています。  
+ **[Unity 2018.4.10f1](https://unity3d.com/jp/get-unity/download)**  
+Unity上で動かします。私が使用しているバージョン以外での動作エラーは各自修正などしてください。  
 
 **[Kinect for Windows SDK v1.8](https://www.microsoft.com/en-us/download/details.aspx?id=40278)**  
 SDK v1.8がKinect v1に対応しています。  
@@ -36,6 +36,10 @@ Unity、Kinect for Windows SDK v1.8を導入の上、Unityで新規プロジェ�
 また、サンプルスクリプトのSampleBonesSend.csもインポートしておいてください。  
 
 本GitHubより「VMCPKinectGum.cs」もインポートしてください。  
+なお、現行のバージョンはリップシンク、まばたきをGUI上でオンオフ出来るよう実装されているので、LipSyncやblinker周りのコードを削除などしてください。  
+エラーコードから簡単にわかると思いますので説明は割愛します。  
+参考までですが、リップシンクを実装したい場合は[AniLipSync-VRM](https://github.com/sh-akira/AniLipSync-VRM)を使用して実装してください。  
+まばたきはGUIでのオンオフを考慮しないのであれば、コードを若干修正するだけで対応可能です。  
 
 次に、空のGameObjectを作成し、以下のスクリプトをアタッチしてください。  
 GameObjectの名前を「Script」にしておくと本プログラムの修正の必要がありません。  
